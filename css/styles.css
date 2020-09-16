@@ -10234,23 +10234,25 @@ header.masthead h1 {
         background: rgba(255, 0, 0, 0.5);
         padding-left: 0;
         padding-bottom: 20px;
-        border-radius: 40%;
+        border-radius: 60%;
     }
     .timeline ul li .time{
         background:rgba(255, 0, 0, 0);
         text-align: justify;
-        padding-bottom: 30px;
-        max-width: 100%;
+        padding-bottom: 50px;
+        max-width: 960px;
+        position: relative;
     }
     .timeline ul li .time .h4{
         font-size: 1rem;
     }
     .timeline ul li .content{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
         padding-left: 0;
         padding-right: 0;
-        max-width: 100%;
+        max-width: 960px;
     }
 
 
