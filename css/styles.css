@@ -10208,27 +10208,26 @@ header.masthead h1 {
 }
 .timeline ul li .content{
     padding-left: 250px;
-    padding-right: 0;
     width: 1000px;
     position: absolute;
 }
 @media (min-width: 576px) {
   .timeline {
-    max-width: 540px;
+    max-width: 25%;
   }
 }
 @media (min-width: 768px) {
   .timeline {
-    max-width: 720px;
+    max-width: 50%;
   }
 }
 @media (min-width: 992px) {
   .timeline {
-    max-width: 960px;
+    max-width: 75%;
   }
 }
 @media (min-width: 1200px) {
   .timeline {
-    max-width: 1140px;
+    max-width: 100%;
   }
 }
