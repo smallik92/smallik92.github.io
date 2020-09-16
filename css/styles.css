@@ -10246,15 +10246,12 @@ header.masthead h1 {
       width: 5px;
   }
   .timeline ul li .time{
-      top:-20px;
-      left:10px;
       padding-bottom: 30px;
-
   }
   .timeline ul li .content{
-      padding-left: 50px;
+      padding-left: 30px;
       padding-bottom: 50px;
-      width: 100%;
+      width: 750px;
       text-align: justify;
   }
 }
