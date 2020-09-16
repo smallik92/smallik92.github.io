@@ -10240,18 +10240,10 @@ header.masthead h1 {
       width:2px;
   }
   .timeline ul li::before{
-      top:-18px;
+      top:-10px;
       left:10px;
       height: 5px;
       width: 5px;
   }
-  .timeline ul li .time{
-      padding-bottom: 30px;
-  }
-  .timeline ul li .content{
-      padding-left: 30px;
-      padding-bottom: 50px;
-      width: 750px;
-      text-align: justify;
-  }
+
 }
