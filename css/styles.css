@@ -10211,8 +10211,3 @@ header.masthead h1 {
     width: 1000px;
     position: absolute;
 }
-@media (max-width: 1000px) {
-  .timeline {
-    max-width: 100%;
-  }
-}
