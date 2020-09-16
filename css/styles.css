@@ -10211,32 +10211,8 @@ header.masthead h1 {
     width: 1000px;
     position: absolute;
 }
-/* @media (min-width: 576px) {
-  .timeline {
-    max-width: 25%;
-  }
-}
-@media (min-width: 768px) {
-  .timeline {
-    max-width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  .timeline {
-    max-width: 75%;
-  }
-} */
 @media (max-width: 1000px) {
   .timeline {
     max-width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .timeline {
-    max-width: 768px;
-  }
-  .timeline::before{
-      left:20px;
-      width:2px;
   }
 }
