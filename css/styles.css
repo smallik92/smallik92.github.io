@@ -10231,7 +10231,7 @@ header.masthead h1 {
         width: 10px;
         height: 10px;
         background: rgba(255, 0, 0, 0.5);
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         border-radius: 60%;
     }
     .timeline ul li .time{
@@ -10240,7 +10240,7 @@ header.masthead h1 {
         max-width: 50%;
     }
     .timeline ul li .content{
-        padding-top: 10px
+        padding-top: 10px;
         padding-left:10px;
         max-width: 100%;
     }
