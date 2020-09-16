@@ -10208,7 +10208,7 @@ header.masthead h1 {
 }
 .timeline ul li .content{
     padding-left: 250px;
-    width: 750px;
+    width: 1000px;
     position: absolute;
 }
  /* .timeline ul li::nth-of-type(odd){
