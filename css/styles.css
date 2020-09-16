@@ -10219,10 +10219,19 @@ header.masthead h1 {
 }
 @media (max-width : 768px) {
     .timeline{
-        width: auto;
+        width: 100%;
     }
     .timeline::before{
         left:10px;
         width: 2px;
+    }
+    .timeline ul li::before{
+        content: '';
+        position: absolute;
+        left: 10px;
+        width: 10px;
+        height: 10px;
+        background: rgba(255, 0, 0, 0.5);
+        border-radius: 60%;
     }
 }
