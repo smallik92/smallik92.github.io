@@ -10125,6 +10125,7 @@ header.masthead h1 {
   }
 }
 
+
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
 }
@@ -10164,3 +10165,76 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1000px;
+}
+.timeline::before{
+    content:'';
+    position: absolute;
+    left:25%;
+    width: 4px;
+    height: 100%;
+    background: #523519;
+}
+.timeline ul{
+    margin:0;
+    padding-bottom: 30px;
+}
+.timeline ul li{
+    list-style: none;
+    line-height: normal;
+    position: relative;
+    width: 25%;
+    padding: 20px 40px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.timeline ul li::before{
+    content: '';
+    position: absolute;
+    left: 84%;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 60%;
+}
+
+.timeline ul li .time{
+    background: rgba(255, 0, 0, 0.5);
+}
+.timeline ul li .content{
+    padding-left: 250px;
+    width: 1000px;
+    position: absolute;
+}
+ /* .timeline ul li::nth-of-type(odd){
+    float:left;
+    text-align: right;
+    clear:both;
+}
+.timeline ul li::nth-of-type(even){
+    float:right;
+    text-align:left;
+    clear:both;
+} */
+/*.timeline ul li:nth-of-type(odd)::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+}
+.timeline ul li:nth-of-type(even)::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 0, 0, 0.5);
+
+} */
