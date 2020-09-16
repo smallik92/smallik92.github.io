@@ -10211,7 +10211,7 @@ header.masthead h1 {
     width: 1000px;
     position: absolute;
 }
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .timeline {
     max-width: 25%;
   }
@@ -10225,9 +10225,30 @@ header.masthead h1 {
   .timeline {
     max-width: 75%;
   }
-}
-@media (min-width: 1200px) {
+} */
+@media (max-width: 1000px) {
   .timeline {
     max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .timeline {
+    max-width: 100%;
+  }
+  .timeline::before{
+      left:20px;
+  }
+  .timeline ul li::before{
+      top:-18px;
+      left:16px;
+  }
+  .timeline ul li .time{
+      top:-30px;
+      left:50px;
+  }
+  .timeline ul li .content{
+      padding-left: 30px;
+      width: 100%;
+      position: absolute;
   }
 }
