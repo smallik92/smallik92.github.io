@@ -10238,12 +10238,12 @@ header.masthead h1 {
         left:10px
         padding-left: 10px;
         padding-bottom: 10px;
-        max-width: 960px;
+        max-width: 100%;
     }
     .timeline ul li .content{
         padding-top: 10px
-        padding-left:20px;
-        max-width: 960px
+        padding-left:10px;
+        max-width: 100%;
     }
 
 }
