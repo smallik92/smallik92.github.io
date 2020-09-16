@@ -10219,7 +10219,7 @@ header.masthead h1 {
 }
 @media (max-width : 992px) {
     .timeline{
-        max-width: 100%;
+        width: 100%;
     }
     .timeline::before{
         left:10px;
@@ -10240,7 +10240,7 @@ header.masthead h1 {
         background:rgba(255, 0, 0, 0);
         text-align: justify;
         padding-bottom: 20px;
-        max-width: 100%;
+        width: 100%;
         position: relative;
     }
     .timeline ul li .time .h4{
