@@ -10168,8 +10168,7 @@ header.masthead h1 {
 
 .timeline{
     position: relative;
-    margin: 50px auto;
-    padding: 40px 0;
+    padding: 10px 0;
     width: 1000px;
 }
 .timeline::before{
@@ -10209,7 +10208,7 @@ header.masthead h1 {
 }
 .timeline ul li .content{
     padding-left: 250px;
-    width: 1000px;
+    width: 750px;
     position: absolute;
 }
  /* .timeline ul li::nth-of-type(odd){
