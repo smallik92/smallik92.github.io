@@ -10233,17 +10233,10 @@ header.masthead h1 {
 }
 @media (max-width: 768px) {
   .timeline {
-    max-width: 750px;
+    max-width: 100%;
   }
   .timeline::before{
       left:20px;
       width:2px;
   }
-  .timeline ul li::before{
-      top:-10px;
-      left:10px;
-      height: 5px;
-      width: 5px;
-  }
-
 }
