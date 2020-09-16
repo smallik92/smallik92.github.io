@@ -10233,7 +10233,7 @@ header.masthead h1 {
         height: 5px;
         background: rgba(255, 0, 0, 0.5);
         padding-left: 0;
-        padding-bottom: 20px;
+        padding-bottom: 0;
         border-radius: 60%;
     }
     .timeline ul li .time{
@@ -10252,7 +10252,7 @@ header.masthead h1 {
         padding-bottom: 20px;
         padding-left: 0;
         padding-right: 0;
-        max-width: 100%;
+        width: 100%;
     }
 
 
