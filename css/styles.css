@@ -10239,8 +10239,8 @@ header.masthead h1 {
     .timeline ul li .time{
         background:rgba(255, 0, 0, 0);
         text-align: justify;
-        padding-bottom: 50px;
-        max-width: 960px;
+        padding-bottom: 20px;
+        max-width: 100%;
         position: relative;
     }
     .timeline ul li .time .h4{
@@ -10248,11 +10248,11 @@ header.masthead h1 {
     }
     .timeline ul li .content{
         position: relative;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         padding-left: 0;
         padding-right: 0;
-        max-width: 960px;
+        max-width: 100%;
     }
 
 
