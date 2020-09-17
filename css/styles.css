@@ -10239,15 +10239,15 @@ header.masthead h1 {
         left:10px;
         width: 2px;
     }
-    .timeline .container .time::after{
+    /* .timeline .container .time::after{
         content: '';
         position: absolute;
         left:10%;
-        width: 5px;
-        height: 5px;
+        width: 10px;
+        height: 10px;
         background: rgba(255, 0, 0, 0.5);
         border-radius: 60%;
-    }
+    } */
     .timeline .container{
         width:100%;
         /* padding-left: 10px;
@@ -10260,6 +10260,7 @@ header.masthead h1 {
     }
     .timeline .container .content{
         position: relative;
+        left: -20px;
         padding-top: 20px;
         padding-bottom: 10px;
         /* width: 100%; */
