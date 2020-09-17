@@ -10254,6 +10254,7 @@ header.masthead h1 {
         padding-right: 10px; */
     }
     .timeline .container .time{
+        top:0;
         background:rgba(255, 0, 0, 0.5);
         /* padding-bottom: 20px; */
         /* width: 100%; */
