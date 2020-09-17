@@ -10169,7 +10169,7 @@ header.masthead h1 {
 .timeline{
     position: relative;
     padding: 10px 0;
-    width: 1000px;
+    width: 100%;
 }
 .timeline::before{
     content:'';
@@ -10179,11 +10179,11 @@ header.masthead h1 {
     height: 100%;
     background: #523519;
 }
-.timeline ul{
+/* .timeline ul{
     margin:0;
     padding-bottom: 30px;
-}
-.timeline ul li{
+} */
+/* .timeline ul li{
     list-style: none;
     line-height: normal;
     position: relative;
@@ -10191,33 +10191,47 @@ header.masthead h1 {
     padding: 20px 40px;
     padding-bottom: 20px;
     box-sizing: border-box;
-}
+} */
 
-.timeline ul li::before{
-    content: '';
+.timeline .container .time::after{
+    content: ' ';
     position: absolute;
-    left: 84%;
+    left: 25%;
     width: 20px;
     height: 20px;
     background: rgba(255, 0, 0, 0.5);
     border-radius: 60%;
 }
 
-.timeline ul li .time{
-    background: rgba(255, 0, 0, 0.5);
-}
-.timeline ul li .container{
-    padding-left: 200px;
-    width: 1000px;
-    position: absolute;
+.timeline .container{
+    /* padding: 20px 20px; */
+    align-content: justify;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    /* padding: 20px 40px; */
+    padding-bottom: 20px;
 }
 
-@media (max-width : 1000px) {
+.timeline .container .time{
+    top: 10px;
+    background: rgba(255, 0, 0, 0.5);
+    width:20%;
+    /* position: relative; */
+}
+.timeline .container .content{
+    left:30%;
+    width: 70%;
+    position: relative;
+    /* top: -20px; */
+}
+
+/* @media (max-width : 1000px) {
     .timeline{
         width: 100%;
     }
-}
-@media (max-width : 992px) {
+} */
+@media (max-width : 768px) {
     .timeline{
         width: 100%;
     }
@@ -10225,7 +10239,7 @@ header.masthead h1 {
         left:10px;
         width: 2px;
     }
-    .timeline ul li::before{
+    .timeline .container .time::after{
         content: '';
         position: absolute;
         left:10%;
@@ -10236,24 +10250,26 @@ header.masthead h1 {
         padding-bottom: 0;
         border-radius: 60%;
     }
-    .timeline ul li .time{
-        background:rgba(255, 0, 0, 0);
-        text-align: justify;
+    .timeline .container{
+        width:100%;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+    .timeline .container .time{
+        background:rgba(255, 0, 0, 0.5);
         padding-bottom: 20px;
         width: 100%;
-        position: relative;
     }
-    .timeline ul li .time .h4{
-        font-size: 1rem;
-    }
-    .timeline ul li .container{
+    .timeline .container .content{
         position: relative;
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 0;
-        padding-right: 0;
         width: 100%;
     }
+    .timeline .container .time .h4{
+        font-size: 1rem;
+    }
+
 
 
 }
