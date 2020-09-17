@@ -10259,8 +10259,9 @@ header.masthead h1 {
         /* width: 100%; */
     }
     .timeline .container .content{
+
         position: relative;
-        left: -20px;
+        left: 0%;
         padding-top: 20px;
         padding-bottom: 10px;
         /* width: 100%; */
