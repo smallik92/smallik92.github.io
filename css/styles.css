@@ -10206,7 +10206,7 @@ header.masthead h1 {
 .timeline ul li .time{
     background: rgba(255, 0, 0, 0.5);
 }
-.timeline ul li .content{
+.timeline ul li .continer{
     padding-left: 200px;
     width: 1000px;
     position: absolute;
@@ -10246,13 +10246,13 @@ header.masthead h1 {
     .timeline ul li .time .h4{
         font-size: 1rem;
     }
-    .timeline ul li .content{
+    .timeline ul li .container{
         position: relative;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 0;
         padding-right: 0;
-        /* width: 100%; */
+        width: 100%;
     }
 
 
