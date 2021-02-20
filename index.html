@@ -371,7 +371,7 @@
                                <h3 class="text-center font-weight-black mb-3"> What's cooking now? </h3>
                            </div>
                           <div class="col-6 text-center">
-                              <h5 class="text-center text-black font-weight-black">Interesting reads...</h5>
+                              <h5 class="text-center text-black font-weight-black">Interesting articles...</h5>
                               <a class= "btn btn-secondary mt-2 mb-2" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004792"> Training RNNs with Biological Priors</a>
                               <a class= "btn btn-secondary mt-2 mb-2" href="https://papers.nips.cc/paper/9694-universality-and-individuality-in-neural-dynamics-across-large-populations-of-recurrent-networks.pdf"> Analyzing trained RNN models</a>
                               <h5 class="text-center text-black font-weight-black">My Python code for training a RNN in detection task (more coming soon...)</h5>
@@ -382,6 +382,23 @@
                               <p class = "text-justify text-black font-weight-light"> <b>RNNs to model brain dynamics: </b>There has been recent attention both in the industry and in academic research in using machine learning (particularly, deep learning) to study biological structures and functions. However, the challenge with this approach lies in the interpretability of the trained model. For instance, a recurrent neural network trained on a cognitive task might perform the task with high accuracy, but does the final network architecture comply with neurobiology of real brain circuits? How can we adapt the well-oiled deep learning algorithms and analysis methods to generate models that are task trained yet predictive of biological network features? I am currently exploring this space of AI research for neuroscience through the lens of the problem of olfactory detection. </p>
                          </div>
                     </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h3 class="text-center mt-3 mb-3">WiDS Datathon (Kaggle)</h3>
+                      </div>
+                        <div class="col-6 text-center">
+
+                             <!--a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg"-->
+                                 <!-- <img class="img-fluid mt-5 mb-3" src="assets/img/Figure4.png" width="600" height="400" alt="" /> -->
+                                 <img class="img-fluid mt-5 mb-3" src="" width="600" height="400" alt="" />
+                                 <a class= "btn btn-secondary mb-2" href="https://github.com/smallik92/WiDS_Datathon/blob/main/wids-datathon-v6.ipynb"> Find my skeleton code here!</a>
+                       </div>
+                       <div class="col-6 text-center mb-5">
+                            <p class = "text-justify text-black font-weight-light"> I am currently working on the WiDS Datathon 2021 on Kaggle. The challenge here is to develop a predictive algorithm that takes as input patient demographic information, patient vitals, existence of comorbidity factors and lab examinations within the first 24 hours of admission and produces as output whether or not the patient is diabetic. This kind of predictive pipeline can drastically improve patient outcome in the hospital. The dataset provided had significant amount of missing values specially pertaining to lab examinations as these are physician recommended on a case to case basis. I began working on the project through data analysis and literature review. While I imputed some of the missing attributes using mean/median/mode/unknown tags, I discarded features with more than 85% missing values. I engineered features that highlighted physiological conditions associated with Diabetes Mellitus. The developed model also uses SMOTE to counteract the target imbalance. The learning model used was based on Gradient Boosting of ensemble methods. In addition I implemented several other models such k-NN, 3 - layered neural network model, random forest model etc. Currently the model based on gradient boosting provided the best performance (AUROC: 0.85503) for a set of hyperparameters chosen by Grid Search. </p>
+                            <p class= "text-justify text-muted"> <b> Concepts:</b> Exploratory Data Analysis, Feature extraction, Feature Engineering, Ensemble Models, Deep Learning </p>
+                            <p class= "text-justify text-muted"> <b> Tools:</b> Python (NumPy, Pandas, Scikit-Learn, CatBoost, TensorFlow, Keras)</p>
+                      </div>
+                  </div>
                     <div class="row">
                         <div class="col-12 text-center">
                             <h3 class="text-center mt-3 mb-3">Mechanism of Action of Drugs (Kaggle)</h3>
