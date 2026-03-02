@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+@variant dark (&:where(.dark, .dark *));
+
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/merriweather-sans/400.css";
+@import "@fontsource/merriweather-sans/700.css";
+
+
+:root {
+  --color-primary: #2563EB;
+  --color-accent: #7C3AED;
+  --color-bg: #F8FAFC;
+  --color-text: #0F172A;
+  --color-muted: #64748B;
+
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Merriweather Sans', sans-serif;
+}
+
+.dark {
+  --color-primary: #38BDF8;
+  --color-accent: #A78BFA;
+  --color-bg: #0F172A;
+  --color-text: #E2E8F0;
+}
+
