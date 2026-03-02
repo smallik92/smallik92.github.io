@@ -12,9 +12,23 @@ function Hero() {
           <p className="text-xl text-[var(--color-primary)] font-semibold mb-3">
             Tech Lead & Data Science Manager at C3 AI
           </p>
-          <p className="text-[var(--color-muted)] mb-8">
+          <p className="text-[var(--color-muted)] mb-6">
              Ph.D. in Electrical & Systems Engineering, Washington University in St. Louis
           </p>
+          <div className="flex flex-col gap-3 text-sm text-[var(--color-muted)] leading-relaxed mb-8">
+            <p>
+              I am currently working at C3 AI with 4.5+ years of industry experience spanning AI solution architecture, ML systems design, and customer-facing enterprise AI consulting.
+            </p>
+            <p>
+              I have led and contributed to 10+ enterprise customer engagements as both an individual contributor and technical lead, owning the lifecycle from problem scoping through production deployment and adoption.
+            </p>
+            <p>
+              Beyond customer delivery, I have helped shape internal ML tooling — including modular time-series experimentation and deployment frameworks, standardized Python platform tooling for reproducible CI/CD-driven development, and multi-agent AI systems to accelerate engineering workflows (internal) and demand planning workflows (external).
+            </p>
+            <p>
+              I am currently based in the San Francisco Bay Area. Happy to connect and discuss new opportunities, my past and present work!
+            </p>
+          </div>
           <div className="flex gap-4 flex-wrap">
             <Link
               to="experience"
